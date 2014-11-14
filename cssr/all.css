@@ -1,0 +1,41 @@
+
+body{
+	background-color: #729fcf;
+}
+
+/*nuage*/
+.cloud{
+	background-image: url("../font/cloud.png");
+	background-repeat: repeat-x;
+	background-size: cover;
+	margin-right: -8px;
+	margin-left: -8px;
+}
+
+#konami{
+	display: none;
+}
+#konami-code{
+	display: none;
+}
+
+#content{
+	width: 100%;
+	background-color: #fff;
+	margin-top: 20px;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 12px #aaa;
+	box-shadow: 10px 10px 12px #555;
+	padding-bottom: 10px;
+
+#footer{
+	text-align: center;
+	color: #fff;
+	font-family: sans-serif;
+	background-color: rgba(0,0,0,0.7); 
+	box-shadow: 0 0 4px #000;
+	display: block;
+	bottom: 0px;
+	position: fixed;
+	width: 100%;	
+}

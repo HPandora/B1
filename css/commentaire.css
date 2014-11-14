@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Spicy+Rice);
+
+form{
+	position: relative;
+	border: 8px solid #000;
+	border-radius: 8px;
+	padding: 10px;
+	width: 385px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+h1{
+	text-align: center;
+	font-family: Spicy Rice;
+	font-size: 50px; 
+}

@@ -1,0 +1,45 @@
+#content{
+	
+}
+
+#content h1{
+
+}
+
+hr{
+
+}
+
+#content ul{
+	list-style: none;
+	text-align: center;
+}
+
+#content ul li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+#content ul li a{
+	text-decoration: none;
+}
+
+#content ul{
+	margin-left: -45px;
+}
+
+
+#content ul li img{
+	width: 250px;
+	height: 200px;
+	border-bottom: 5px solid black;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+#content a{
+	/display: block;
+	color: black;
+}

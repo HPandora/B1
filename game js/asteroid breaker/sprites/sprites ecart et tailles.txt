@@ -1,0 +1,1 @@
+asteroid.png : 	hauteur = 52 ; largeur = 64 ; ecart = 8 

@@ -1,0 +1,46 @@
+
+body{
+	margin: 0px;
+	overflow: auto;
+	background-color: #729fcf;
+	text-align: center;
+	
+}
+/*nuage animé*/
+.cloud{
+	background-image: url("../font/cloud.png");
+	background-repeat: repeat-x;
+}
+
+/*nuage animé*/
+
+#content{
+	display: block;
+	width: 900px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-shadow: 10px 10px 12px #aaa;
+	box-shadow: 10px 10px 12px #555;
+	padding-bottom: 20px;
+
+}
+
+footer{
+	text-align: center;
+	color: #fff;
+	font-family: sans-serif;
+	background-color: rgba(0,0,0,0.7); 
+	box-shadow: 0 0 4px #000;
+	display: block;
+	bottom: 0px;
+	position: fixed;
+	width: 100%;	
+}
+footer a{
+	color:#fff;
+	font-family: sans-serif;
+}

@@ -1,0 +1,22 @@
+body{}
+#erreur{
+margin-top: 150px;
+background-image: url("../font/error.png");
+background-repeat: no-repeat;
+margin-right: auto;
+margin-left: auto;
+width: 525px;
+height: 342px;
+}
+
+a{
+	color: #000;
+	font-style: italic;
+	font-size: 30px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 20%;
+}
+a:hover{
+	color: red;
+}

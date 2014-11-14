@@ -1,0 +1,105 @@
+#idbar{
+	background: url("idbar.png") repeat-x;
+	width: 100%;
+	height: 31px;
+	z-index: 6500;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+/*shadow*/
+	-webkit-box-shadow: 0 0 4px #000;
+	-khtml-box-shadow: 0 0 4px #000;
+	box-shadow: 0 0 4px #000;
+	margin-top: -2px;
+}
+
+#idbar * {
+	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+	font-size: 15px;
+}
+
+#idbar a{
+	line-height: 30%;
+	color: white;
+	float: right;
+}
+
+#idbar a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#idbar p{
+}
+
+#idbar hr{
+	margin-top: 0px;
+	width: 1px;
+	height: 100%;
+	float: right;
+}
+
+#connect{
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+#create{
+	margin-right: 10px;
+}
+
+/************************************\
+			widget javascript
+\************************************/			
+
+#co{
+	position: fixed;
+ 	width: 100%;
+ 	height: 100%;
+ 	top : 0px;
+ 	left : 0px;
+ 	background-color: rgba(0,0,0,0.7);
+ 	display: none;
+}
+#connection{
+	position:absolute;
+	background-color: #ebebeb;
+	border: 5px solid black;
+	width: 200px;
+	float: right;
+	text-align: center;
+	margin-top: 20px;
+	right: 5px;
+	opacity: 1;
+	display: none;
+}
+#connection input{
+	border-radius: 5px;
+}
+
+
+#cre{
+	position: fixed;
+ 	width: 100%;
+ 	height: 100%;
+ 	top : 0px;
+ 	left : 0px;
+ 	background-color: rgba(0,0,0,0.7);
+ 	display: none;
+}
+#creation{
+	position: absolute;
+	background-color: #ebebeb;
+	border: 5px solid black;
+	width: 200px;
+	text-align: center;
+	float: right;
+	margin-top: 20px;
+	right: 5px;
+	//opacity: 1;
+	display: none;
+}
+#creation input{
+border-radius: 5px;
+}
